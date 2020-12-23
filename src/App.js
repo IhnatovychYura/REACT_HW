@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
+import logo from "./logo.svg";
 import HomeComponent from "./components/home/HomeComponent";
 import AllUsersComponent from "./components/all-users/AllUsersComponent";
 import {
@@ -15,9 +15,10 @@ class App extends Component {
         return (
             <Router>
                 <div>
-                    <header>
-                        <Link to={'/home'}> Home </Link>
-                        <Link to={'/all-users'}> Users </Link>
+                    <header className="App-header">
+                        <img src={logo} className="App-header-logo" alt="logo" />
+                        <Link to={'/home'} className="link"> Home </Link>
+                        <Link to={'/all-users'} className="link"> Users </Link>
                     </header>
 
                     <Switch>
