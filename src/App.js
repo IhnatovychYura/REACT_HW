@@ -16,7 +16,7 @@ class App extends Component {
             <Router>
                 <div>
                     <header className="App-header">
-                        <img src={logo} className="App-header-logo" alt="logo" />
+                        <img src={logo} className="App-header-logo" alt="logo"/>
                         <Link to={'/home'} className="link"> Home </Link>
                         <Link to={'/all-users'} className="link"> Users </Link>
                     </header>

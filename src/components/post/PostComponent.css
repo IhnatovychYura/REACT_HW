@@ -1,0 +1,11 @@
+.Post-info {
+    width: 44%;
+    border-radius: 7px;
+    background-color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.Post-info h5 {
+    margin-bottom: 10px;
+}
